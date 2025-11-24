@@ -1,2 +1,2 @@
 # LCMD-Det
-Relevant source will be uploaded to GitHub upon acceptance
+Relevant source will be uploaded to GitHub upon acceptance.
