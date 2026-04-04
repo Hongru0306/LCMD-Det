@@ -2,11 +2,8 @@
 
 > Checkpoints will be released after acceptance.
 
-This repository is currently in anonymous/review mode.
-The code for training, validation, export, and deployment benchmarking is provided for reproducibility review.
-Pretrained checkpoints are intentionally not included at this stage.
 
-## What's available now
+## Description
 
 - TensorRT export script in `deployment/tools.py`
 - PyTorch vs TensorRT validation/latency comparison in `deployment/inference.py`
