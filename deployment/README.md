@@ -47,7 +47,6 @@ Outputs:
 ## Notes
 
 - For fair comparison, PyTorch and TensorRT are evaluated with the same dataset and image size settings from `deployment/config.py`.
-- GPU benchmarking in our experiments was run with CUDA-enabled PyTorch and TensorRT.
 
 ## Review statement
 
