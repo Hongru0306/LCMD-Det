@@ -3,8 +3,7 @@ Relevant source will be released to this GitHub repo upon acceptance.
 
 
 ## 1. Detailed information
-- The **deployment** scripts and settings are in [`deployment`](./deployment).  
-- The experiment setting configs are in [`configs`](./configs).  
+- The **deployment** scripts and settings are in [`deployment`](./deployment).   
 
 
 ## 2. Data and trained weights
