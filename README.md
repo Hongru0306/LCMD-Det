@@ -2,7 +2,7 @@
 Relevant source will be released to this GitHub repo upon acceptance.
 
 
-## 1. Detailed information
+## 1. Deployment details
 - The **deployment** scripts and settings are in [`deployment`](./deployment).   
 
 
