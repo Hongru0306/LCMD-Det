@@ -6,16 +6,13 @@ Relevant source will be released to this GitHub repo upon acceptance.
 - The **deployment** scripts and settings are in [`deployment`](./deployment).   
 
 
-## 2. Data and trained weights
-Relevant datasets and trained model checkpoints can be accessed from our [Google Drive]().
-
-## 3. Implement
-### 3.1 Environment Setup
+## 2. Implement
+### 2.1 Environment Setup
 ```
 pip install -r requirements.txt
 ```
 
-### 3.2 Train
+### 2.2 Train
 ```
 python train.py
 ```
@@ -32,12 +29,12 @@ Key arguments (configured inside `train.py`):
 | `project` | Output directory for runs |
 
 
-### 3.3 Val
+### 2.3 Val
 ```
 python val.py --save true
 ```
 
-### 3.4 Heatmap generation
+### 2.4 Heatmap generation
 ```
 python heatmap.py
 ```
