@@ -50,4 +50,4 @@ Outputs:
 
 ## Review statement
 
-A full project README with checkpoint links, training recipes, and citation information will be added after acceptance.
+A full project README with checkpoint links will be added after acceptance.
