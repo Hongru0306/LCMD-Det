@@ -51,7 +51,7 @@ python val.py
 
 ## 2. Dataset
 
-The dataset can be downloaded from [Google Drive]([https://github.com/Hongru0306/LCMD-Det/edit/main/README.md](https://drive.google.com/file/d/1JJkr1q4J8Uk1NhYoFeVC3L-luynv8Vc9/view?usp=sharing)).
+The dataset can be downloaded from [Google Drive](https://drive.google.com/file/d/1JJkr1q4J8Uk1NhYoFeVC3L-luynv8Vc9/view?usp=sharing).
 
 
 ## 3. Deployment
