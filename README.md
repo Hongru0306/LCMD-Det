@@ -1,40 +1,67 @@
 # LCMD-Det
-Relevant source will be released to this GitHub repo upon acceptance.
 
+Official implementation of **"Infrared-assisted Cross-Modality Detection for Construction Site Worker Safety Monitoring"**.
 
-## 1. Deployment details
-- The **deployment** scripts and settings are in [`deployment`](./deployment).   
+## 1. Implementation
 
+### 1.1 Environment Setup
 
-## 2. Implement
-### 2.1 Environment Setup
-```
+```bash
 pip install -r requirements.txt
 ```
 
-### 2.2 Train
+### 1.2 Model Configs
+
+Model configuration files are provided in:
+
+```bash
+./model_configs/
 ```
+
+### 1.3 Model Weights
+
+Pre-trained model weights are provided in:
+
+```bash
+./weights/
+```
+
+### 1.4 Train
+
+```bash
 python train.py
 ```
 
-Key arguments (configured inside `train.py`):
+Key arguments are configured inside `train.py`:
 
-| Argument | Description |
-|---|---|
-| `data` | Path to dataset `.yaml` config |
-| `imgsz` | Input image size (default: 640) |
-| `epochs` | Number of training epochs |
-| `batch` | Batch size |
-| `device` | GPU device id(s) |
-| `project` | Output directory for runs |
+| Argument  | Description                    |
+| --------- | ------------------------------ |
+| `data`    | Path to dataset `.yaml` config |
+| `imgsz`   | Input image size, default: 640 |
+| `epochs`  | Number of training epochs      |
+| `batch`   | Batch size                     |
+| `device`  | GPU device id(s)               |
+| `project` | Output directory for runs      |
 
+### 1.5 Val
 
-### 2.3 Val
+```bash
+python val.py
 ```
-python val.py --save true
+
+## 2. Dataset
+
+The dataset can be downloaded from Google Drive:
+
+```text
+Google Drive: https://drive.google.com/your-dataset-url
 ```
 
-### 2.4 Heatmap generation
-```
-python heatmap.py
+
+## 3. Deployment
+
+Deployment scripts and settings are provided in:
+
+```bash
+./deployment/
 ```

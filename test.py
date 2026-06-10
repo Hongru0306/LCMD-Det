@@ -1,8 +1,8 @@
-from utils_mm import mm
+from ultralytics import YOLO, RTDETR
+from swanlab.integration.ultralytics import add_swanlab_callback
+
 
 if __name__ == '__main__':
 
-    # val
-    model = mm("weights/best.pt")
-    model.val(data=r"/cfg/datasets/mydata.yaml",batch=1)
-
+    model = YOLO("./weights/best.pt")
+    model.val(data="./data/M3FD_multi.yaml",batch=8, split='test')
