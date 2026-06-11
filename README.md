@@ -61,3 +61,20 @@ Deployment scripts and settings are provided in:
 ```bash
 ./deployment/
 ```
+
+## Citation
+```
+@article{XIAO2026104877,
+title = {Infrared-assisted cross-modality detection for construction site worker safety monitoring},
+journal = {Advanced Engineering Informatics},
+volume = {76},
+pages = {104877},
+year = {2026},
+issn = {1474-0346},
+doi = {https://doi.org/10.1016/j.aei.2026.104877},
+url = {https://www.sciencedirect.com/science/article/pii/S1474034626005690},
+author = {Hongru Xiao and Bin Yang and Jinming Hu and Yujie Lu and Junze Zhu and Jiale Han},
+keywords = {IR-RGB fusion, Infrared image processing, Multimodal detection, Construction safety monitoring, Construction automated inspection}
+}
+```
+If you have any questions, please feel free to contact me at 'hongru_xiao[AT]tongji[DOT]edu[DOT]cn'.
